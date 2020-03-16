@@ -170,10 +170,6 @@ public class SKSensorModuleManager {
                 sensorModule = new SKLocation(mApplicationContext);
                 break;
 
-            case ACTIVITY:
-                sensorModule = new SKActivity(mApplicationContext);
-                break;
-
             case BATTERY:
                 sensorModule = new SKBattery(mApplicationContext);
                 break;

@@ -5,6 +5,12 @@
 /.idea/workspace.xml
 .DS_Store
 /build
+*.iml
+.idea
+.navigation
+captures/
+output.json 
+
 
 #built application files
 *.apk
@@ -26,10 +32,16 @@ local.properties
 # Windows thumbnail db
 Thumbs.db
 
-# OSX files
-.DS_Store
-
 # Eclipse project files
 .classpath
 .project
 
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+#NDK
+obj/
+.externalNativeBuild
