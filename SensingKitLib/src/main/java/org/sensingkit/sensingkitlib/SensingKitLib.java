@@ -123,7 +123,7 @@ public class SensingKitLib implements SensingKitLibInterface {
     private void acquireWakeLock() {
         if ((mWakeLock == null) || (!mWakeLock.isHeld())) {
             PowerManager pm = (PowerManager) mApplicationContext.getSystemService(Context.POWER_SERVICE);
-            mWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "WakeLock");
+            mWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "app:WakeLock");
             mWakeLock.acquire();
         }
     }
